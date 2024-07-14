@@ -1,0 +1,52 @@
+.GameContainer {
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }
+  
+  .gameboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: hsl(var(--accent)/.1);
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 4px solid hsl(var(--accent));
+    box-shadow: 0 2px 2rem hsl(var(--accent)/.3);
+  }
+
+  .heading{
+    color: rgb(14, 50, 235);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stats-container p {
+    margin: 0 1rem;
+  }
+  
+  .time{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(93, 187, 246);
+  }
+  
+  .totalMove{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(243, 163, 66);
+  }
+
+  .totalScore{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+  }

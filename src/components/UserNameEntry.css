@@ -1,0 +1,36 @@
+.user-entry-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .user-entry-box h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .user-entry-box input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .user-entry-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-entry-box button:hover {
+    background-color: #0056b3;
+  }
+  
